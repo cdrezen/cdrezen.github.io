@@ -8,7 +8,7 @@
 		<h2>{title}</h2>
 		<p class="video-description">{description}</p>
 	</div>
-	<div class="card video-container">
+	<div class="card-nobackdrop video-container">
 		<video controls poster={poster} src={videoSrc}>
 			<track kind="captions" />
 		</video>
