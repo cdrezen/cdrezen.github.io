@@ -17,16 +17,18 @@ body {
     flex-direction:column;
     min-height:100vh;
     background:#020024;
-    background:linear-gradient(33deg,#000000 0%,#702f1f 33%,#ca9c27bd 90%);
+    background:linear-gradient(222deg,#000000 0%,#702f1f 33%,#ca9c27bd 90%);
     background-attachment:fixed;
     scroll-behavior:smooth;
-    overflow:overlay
+    overflow:overlay;
 }
 
 app-root {
-    flex-grow:1;
+    display: flex;
     flex-direction:column;
-    margin: 10rem;
+    gap: 4em;
+    margin-inline: 10rem;
+    margin-top: 7rem;
 }
 
 nav
@@ -104,12 +106,11 @@ header {
 
 .card
 {
-    background-color: #000000;
-    border-radius: 10px;
-    margin: 10rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
-    background: var(--glass-bg);
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background: var(--glass-bg);
 	border: 1px solid var(--glass-border);
 	border-radius: 1.25rem;
 	backdrop-filter: blur(1rem);
@@ -123,7 +124,7 @@ header {
 	--bg-start: #0b1020;
 	--bg-end: #151b35;
 	--text-main: #edf1ff;
-	--text-muted: #bac2e0;
+	--text-muted: #dfe0ba;
 	--glass-bg: rgba(255, 255, 255, 0.08);
 	--glass-border: rgba(255, 255, 255, 0.2);
 	--shadow: 0 2.2rem 5rem rgba(2, 6, 23, 0.45);
@@ -220,8 +221,9 @@ h3 {
   left:0;
   width:100vw;
   height:100vh;
-  pointer-events:none
+  pointer-events:none;
 }
+
 .stars {
   display:flex;
   width:1px;
@@ -283,4 +285,38 @@ h3 {
   to {
     transform:translateY(-2000px)
   }
+}
+
+.video-description {
+  margin-bottom: 2rem;
+  color: var(--text-muted);
+}
+
+.video-container {
+  display: flex;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.video-container video {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+  opacity: 100%;
+  z-index: 3;
+  transition: all .3s ease;
+}
+
+video:hover
+{
+  transform: scale(101%);
+}
+
+.video-title-desc
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
