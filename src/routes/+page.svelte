@@ -2,7 +2,7 @@
 	import Video from '$lib/components/Video.svelte';
 </script>
 
-<h1>
+<h1 id="projects">
 <center>Projects</center>
 </h1>
 
@@ -11,49 +11,41 @@
     title="Xshape"
     description="Small shapes editor with high level abstraction and design pattern usage"
     videoSrc="xshape.mp4"
-    poster="cdrezen"
+    poster=""
 />
 
 <Video
     title="Game dev"
     description="Gerstner waves with buoyancy and doppler effect simulation"
     videoSrc="waves.webm"
-    poster="cdrezen"
-/>
-
-<div class="card">
-    <h2>Card 1</h2>
-    <p>This is the content of the card.</p>
-</div>
-
-<div class="card">
-    <h2>Card 2</h2>
-    <p>This is the content of the card.</p>
-</div>
-<div class="card">
-    <h2>Card 3</h2>
-    <p>This is the content of the card.</p>
-</div>
-<div class="card">
-    <h2>Card 1</h2>
-    <p>This is the content of the card.</p>
-</div>
-
-<Video
-    title="Video 1"
-    description="This is a sample video description. The video component includes a title, description, and a video player with standard controls."
-    videoSrc="https://www.w3schools.com/html/mov_bbb.mp4"
     poster=""
 />
+<div class="title-section">
+    <div class="title-line"></div>
+    <h1 id="contact">Contact</h1>
+    <div class="title-line"></div>
+</div>
 
-<div class="card">
-    <h2>Card 2</h2>
-    <p>This is the content of the card.</p>
+<div class="card-dashed contact-card">
+    <p>
+       I'm open to a wide range of software engineering positions. 
+       If you wish to get in touch, please do not hesitate.
+    </p>
+    <p>
+        Feel free to reach out to me via 
+        <a href="mailto:corentin.drezen@gmail.com">email</a>
+        or 
+        <a href="https://fr.linkedin.com/in/corentin-drezen">LinkedIn</a>
+        .
+    </p>
+    <div>
+        <a class="btn icon" href="mailto:corentin.drezen@gmail.com">✉️</a>
+        <a class="btn icon" href="https://fr.linkedin.com/in/corentin-drezen">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" height="2rem" fill="white"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg>
+        </a>
+    </div>
 </div>
-<div class="card">
-    <h2>Card 3</h2>
-    <p>This is the content of the card.</p>
-</div>
+
 <div class="stars"></div>
 <div class="stars-md"></div>
 <div class="stars-bg"></div>

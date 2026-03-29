@@ -14,10 +14,10 @@
 			<a class="navbar_link" href="/">
 				Hello
 			</a>
-			<a class="navbar_link" href="/projects">
+			<a class="navbar_link" href="#projects">
 				Projects
 			</a>
-			<a class="navbar_link" href="/contact">
+			<a class="navbar_link" href="#contact">
 				Contact
 			</a>
 		</div>
