@@ -2,8 +2,10 @@
 	import Video from '$lib/components/Video.svelte';
 </script>
 
-<h2 id="hello">Hello,</h2>
-<p>I'm a <b>software engineer</b> mainly interested about user interfaces, gpu programming, game, mobile and web developpment.</p>
+<div class="landing" id="hello">
+    <h2>Hello,</h2>
+    <p>I'm a <b>software engineer</b> mainly interested about user interfaces, gpu programming, game, mobile and web developpment.</p>
+</div>
 
 <div class="title-section" id="projects">
     <div class="title-line"></div>
@@ -27,7 +29,7 @@
 
 <Video
     title="Performance optimization"
-    description="I optimized performances of an Abelian sandpile simulation as part of an University course on parallel computing, gpu programming and distributed systems"
+    description="I optimized performances of an Abelian sandpile simulation as part of a course on parallel computing, gpu programming and distributed systems"
     videoSrc="pap.webm"
     poster=""
 />
@@ -41,24 +43,25 @@
     </a>
 </h2>
 
-<div class="title-section">
+<div class="title-section" id="contact">
     <div class="title-line"></div>
-    <h1 id="contact">Contact</h1>
+    <h1>Contact</h1>
     <div class="title-line"></div>
 </div>
 
 <div class="card-dashed contact-card">
-    <p>
-       I'm open to a wide range of software engineering positions. 
-       If you wish to get in touch, please do not hesitate.
-    </p>
-    <p>
-        Feel free to reach out to me via 
-        <a href="mailto:corentin.drezen@gmail.com">email</a>
-        or 
-        <a href="https://fr.linkedin.com/in/corentin-drezen">LinkedIn</a>
-        .
-    </p>
+    <span>
+        <p>
+        I'm open to a wide range of software engineering positions. 
+        If you wish to get in touch, please do not hesitate.
+        </p>
+        <p>
+            Feel free to reach out to me via 
+            <a href="mailto:corentin.drezen@gmail.com">email</a>
+            or 
+            <a href="https://fr.linkedin.com/in/corentin-drezen">LinkedIn</a>.
+        </p>
+    </span>
     <div>
         <a class="btn icon" href="mailto:corentin.drezen@gmail.com">✉️</a>
         <a class="btn icon" href="https://fr.linkedin.com/in/corentin-drezen">

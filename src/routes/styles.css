@@ -44,9 +44,9 @@ app-root {
     display: flex;
     flex-direction:column;
     gap: 4em;
-    /* margin-inline: 10rem; */
-    margin: 7rem;
-    max-width: 100vh;
+    margin: 10rem 2rem;
+    max-width: 75vh;
+    align-items: center;
 }
 
 h1
@@ -114,6 +114,7 @@ header {
   font-size:.875rem;
   text-shadow:0px 0px 3px rgba(0,0,0,.7)
 }
+
 .navbar_list:after {
   content:"};";
   color:#bcbcbc;
@@ -138,6 +139,16 @@ header {
 }
 .navbar__link:hover {
   color:#bda5ea
+}
+
+.landing
+{
+  display: flex;
+  flex-direction: column;
+  margin: 7rem 3rem;
+  scroll-margin-top: 20rem;
+  justify-content: space-around;
+  gap: 1em;
 }
 
 .more-projects
@@ -211,6 +222,7 @@ a
   text-decoration: none;
   color: inherit;
   gap: 0.25rem;
+  margin: 1rem;
 }
 
 .btn:hover,
@@ -362,6 +374,7 @@ video:hover
   align-items: center;
   width: 100%;
   gap: 1rem;
+  scroll-margin-top: 5rem;
 }
 .title-line
 {
@@ -371,4 +384,18 @@ video:hover
   height: 1px;
   background: #c7cdd333;
   background-color: var(--glass-border);
+}
+
+@media (max-width: 768px) {
+  .navbar_list:before 
+  {
+    content:"{ ";
+  }
+  .navbar_list
+  {
+    scale: 80%
+  }
+  header {
+  padding:0.75rem 2rem;
+}
 }
