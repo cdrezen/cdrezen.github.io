@@ -4,7 +4,7 @@
 
 <div class="landing" id="hello">
     <h2>Hello,</h2>
-    <p>I'm a <b>software engineer</b> mainly interested about user interfaces, gpu programming, game, mobile and web developpment.</p>
+    <p>I'm a <b>software engineer</b> mainly interested in user interfaces, GPU programming, games, mobile, and web development.</p>
 </div>
 
 <div class="title-section" id="projects">
