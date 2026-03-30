@@ -323,10 +323,11 @@ a
   color: var(--text-muted);
 }
 
-.video-container {
+.video-card {
   display: flex;
   position: relative;
   border-radius: 1rem;
+  width: 100%;
 }
 
 video {
@@ -350,6 +351,11 @@ video:hover
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+.video-comp
+{
+  max-width: 75%;
 }
 
 .contact-card
