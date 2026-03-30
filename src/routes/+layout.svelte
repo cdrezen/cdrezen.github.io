@@ -9,9 +9,11 @@
 
 <header>
 	<nav>
-		<span class="navbar_logo">&ltcdrezen/&gt</span>
+		<a class="navbar_logo" href="#hello" aria-label="cdrezen">
+			<img src="icon.png" height="40em" alt="cdrezen">
+		</a>
 		<div class="navbar_list">
-			<a class="navbar_link" href="/">
+			<a class="navbar_link" href="#hello">
 				Hello
 			</a>
 			<a class="navbar_link" href="#projects">

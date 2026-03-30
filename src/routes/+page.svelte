@@ -2,15 +2,19 @@
 	import Video from '$lib/components/Video.svelte';
 </script>
 
-<h1 id="projects">
-<center>Projects</center>
-</h1>
+<h2 id="hello">Hello,</h2>
+<p>I'm a <b>software engineer</b> mainly interested about user interfaces, gpu programming, game, mobile and web developpment.</p>
 
+<div class="title-section" id="projects">
+    <div class="title-line"></div>
+    <h1>Projects</h1>
+    <div class="title-line"></div>
+</div>
 
 <Video
-    title="Xshape"
-    description="Small shapes editor with high level abstraction and design pattern usage"
-    videoSrc="xshape.mp4"
+    title="Software architecture"
+    description="Xshape is a small shapes editor crafted with a highly abstracted architecture and extensive use of design patterns."
+    videoSrc="xshape.webm"
     poster=""
 />
 
@@ -20,6 +24,14 @@
     videoSrc="waves.webm"
     poster=""
 />
+
+<Video
+    title="Performance optimization"
+    description="I optimized performances of an Abelian sandpile simulation as part of an University course on parallel computing, gpu programming and distributed systems"
+    videoSrc="pap.webm"
+    poster=""
+/>
+
 <h2><center>...</center></h2>
 <h2 class="more-projects">
     You can find more of my projects on
